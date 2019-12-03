@@ -1,12 +1,8 @@
 # Llamamos paquetes a utilizar en el laboratorio
 library(tidyverse)
-library(lubridate)
-library(RColorBrewer)
-library(viridis)
 library(gganimate)
 library(ggplot2)
-library(ggcorrplot)
-library(dplyr)
+
 
 # Descargar malla de datos
 coast_vs_waste <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-05-21/coastal-population-vs-mismanaged-plastic.csv")
